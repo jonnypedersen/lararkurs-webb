@@ -40,6 +40,19 @@ aside {
         content: "800px";
         display: block;
     }
+@madia all and ( max-width .500px){
+    article {
+        flex: 0 0 100%;               
+    }
+    aside {
+        flex: 0 0 100%;
+    }
+    article > h2::after {
+        color: red;
+        content: 500px;
+        display: block;
+    }
+}
 footer {
     background-color: hsl(99, 79%, 68%);
     text-align: center;
